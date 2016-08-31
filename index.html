@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Skeletor DebugComponent</title>
+</head>
+<body>
+	<p>Skeletor Debug Component</p>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.js"></script>
+	<script>
+		require.config({
+			paths: {
+				'jquery': '//code.jquery.com/jquery-3.0.0.min',
+				//'skeletor.core': '//rawgit.com/delphic-digital/Skeletor.core/master/skeletor.core',
+				'skeletor.core': '../../skeletor.core/skeletor.core',
+			}
+		})
+		require(['skeletor.debug'], function(){
+			//A simple console call:
+			console.log('Test log message.')
+			console.info('Test info message.')
+			console.error('Test error message.')
+			console.debug('Test debug message.')
+		})
+
+	</script>
+</body>
+</html>
