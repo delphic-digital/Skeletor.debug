@@ -1,0 +1,24 @@
+{
+  "name": "skeletor.util.debug",
+  "main": "skeletor.util.debug.js",
+  "homepage": "https://github.com/delphic-digital/Skeletor.util.debug",
+  "authors": [
+    "Jeff <jmills@delphicdigital.com>"
+  ],
+  "description": "Debug enhancements for Skeletor framework",
+  "keywords": [
+    "delphic",
+    "skeletor"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "skeletor.core": "*"
+  }
+}
